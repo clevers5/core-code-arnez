@@ -1,4 +1,4 @@
-# Core Code Fundamentals :zap:
+# Core Code Fundamentals :zap: Grupo 2: LatamHeart
 ## Clever Arnez Ponce  :wink:
 ---
 ## Tareas  :orange_book:
