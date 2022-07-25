@@ -47,4 +47,57 @@ Respuesta --> **11111001101**
 
 ## *2. Ejercicio MIPS*
 
-- 
+- ### *2.1. Programa para agregar 2 números por el usuario*
+
+```assembly
+  .data
+        resultado: .asciiz "\nEl resultado es: "
+        número1: .asciiz "\nIngrese el pirmer número: "
+        número2: .asciiz "\nIngrese el segundo número "
+  .text
+        main:
+             
+            
+              li $v0, 4
+              la $a0, número1
+              syscall
+
+              li $v0, 5
+              syscall
+              
+              move $t0, $v0
+
+              li $v0, 4
+              la $a0, número2
+              syscall
+
+              li $v0, 5
+              syscall
+
+              move $t1, $v0
+
+              add $t2, $t0, $t1
+
+              li $v0, 4
+              la $a0, resultado
+              syscall
+
+              li $v0, 1
+              move $a0, $t2
+              syscall
+              
+```
+
+- ### *2.2. Programa para mostrar el nombre*
+
+```assembly
+
+.data
+	      nombre: .asciiz "\nClever Arnez Ponce\n"
+  .text
+	      main:
+              li $v0, 4
+              la $a0, nombre
+              syscall
+
+```
