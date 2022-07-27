@@ -1,7 +1,7 @@
 # Core Code Fundamentals :zap: Grupo 2: LatamHeart :hearts:
 ## Clever Arnez Ponce  :wink:
 ---
-## Tareas  :orange_book:
+## Desafíos semanales  :orange_book:
 
 ### Introducción a la programación y Javascript - Semana 1
 
