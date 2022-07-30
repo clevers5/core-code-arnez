@@ -1,4 +1,4 @@
-# DESAFIO *Miércoles-27-07-22*
+# DESAFÍO *Miércoles-27-07-22*
 
 
 ## *1. Continúe con el curso de HTML*
