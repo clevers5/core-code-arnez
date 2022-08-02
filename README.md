@@ -18,7 +18,7 @@
 
 ### Javascript - Semana 3
 
-- [ ] [**Lunes** *01-08-2022*](/Week3/Lunes-01-08-22.md) 
+- [x] [**Lunes** *01-08-2022*](/Week3/Lunes-01-08-22.md) 
 - [ ] [**Martes** *02-08-2022*](/Week3/Martes-02-08-22.md) 
 - [ ] [**Miércoles** *03-08-2022*](/Week3/Miércoles-03-08-22.md) 
 - [ ] [**Jueves** *04-08-2022*](/Week3/Jueves-04-08-22.md) 
