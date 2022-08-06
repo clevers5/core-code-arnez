@@ -21,5 +21,12 @@
 - [x] [**Lunes** *01-08-2022*](/Week3/Lunes-01-08-22.md) 
 - [x] [**Martes** *02-08-2022*](/Week3/Martes-02-08-22.md) 
 - [x] [**Miércoles** *03-08-2022*](/Week3/Miércoles-03-08-22.md) 
-- [ ] [**Jueves** *04-08-2022*](/Week3/Jueves-04-08-22.md) 
+- [x] [**Jueves** *04-08-2022*](/Week3/Jueves-04-08-22.md) 
+
+### Javascript y día de pausa - Semana 4
+
+- [ ] [**Lunes** *08-08-2022*](/Week4/Lunes-08-08-22.md) 
+- [ ] [**Martes** *09-08-2022*](/Week4/Martes-09-08-22.md) 
+- [ ] [**Miércoles** *10-08-2022*](/Week4/Miércoles-10-08-22.md) 
+- [ ] [**Jueves** *11-08-2022*](/Week4/Jueves-11-08-22.md) 
 
