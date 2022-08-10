@@ -27,6 +27,6 @@
 
 - [x] [**Lunes** *08-08-2022*](/Week4/Lunes-08-08-22.md) 
 - [x] [**Martes** *09-08-2022*](/Week4/Martes-09-08-22.md) 
-- [ ] [**Miércoles** *10-08-2022*](/Week4/Miércoles-10-08-22.md) 
+- [x] [**Miércoles** *10-08-2022*](/Week4/Miércoles-10-08-22.md) 
 - [ ] [**Jueves** *11-08-2022*](/Week4/Jueves-11-08-22.md) 
 
