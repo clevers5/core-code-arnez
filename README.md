@@ -33,6 +33,6 @@
 ### Fin de mes y TypeScript - Semana 5
 
 - [x] [**Lunes** *15-08-2022*](/Week5/Lunes-15-08-22.md) 
-- [ ] [**Martes** *16-08-2022*](/Week5/Martes-16-08-22.md) 
+- [x] [**Martes** *16-08-2022*](/Week5/Martes-16-08-22.md) 
 - [ ] [**Miércoles** *17-08-2022*](/Week5/Miércoles-17-08-22.md) 
 - [ ] [**Jueves** *18-08-2022*](/Week5/Jueves-18-08-22.md) 
