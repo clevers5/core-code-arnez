@@ -10,7 +10,7 @@
 
 ## *3. Ejercicio - Leer acerca de la programación orientada a objetos*
 
-- Video --> [POO: Todo lo que necesitas saber sobre Programación Orientada a Objetos](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b)
+- Artículo --> [POO: Todo lo que necesitas saber sobre Programación Orientada a Objetos](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b)
 - Completado
 
 
