@@ -39,7 +39,7 @@
 
 ### TypeScript - Semana 6
 
-- [x] [**Lunes** *22-08-2022*](/Week6/Lunes-22-08-22.md) 
-- [x] [**Martes** *23-08-2022*](/Week6/Martes-23-08-22.md) 
-- [x] [**Miércoles** *24-08-2022*](/Week6/Miércoles-24-08-22.md) 
-- [x] [**Jueves** *25-08-2022*](/Week6/Jueves-25-08-22.md) 
+- [ ] [**Lunes** *22-08-2022*](/Week6/Lunes-22-08-22.md) 
+- [ ] [**Martes** *23-08-2022*](/Week6/Martes-23-08-22.md) 
+- [ ] [**Miércoles** *24-08-2022*](/Week6/Miércoles-24-08-22.md) 
+- [ ] [**Jueves** *25-08-2022*](/Week6/Jueves-25-08-22.md) 
