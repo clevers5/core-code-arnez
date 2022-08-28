@@ -11,3 +11,15 @@
 ```javascript
 
 ```
+
+## *2. Ejercicio - *
+
+- **Descripción:** 
+
+- **Ejemplo:**
+
+
+- **Solución:**
+```javascript
+
+```
