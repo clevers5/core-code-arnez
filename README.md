@@ -42,4 +42,11 @@
 - [x] [**Lunes** *22-08-2022*](/Week6/Lunes-22-08-22.md) 
 - [x] [**Martes** *23-08-2022*](/Week6/Martes-23-08-22.md) 
 - [x] [**Miércoles** *24-08-2022*](/Week6/Miércoles-24-08-22.md) 
-- [ ] [**Jueves** *25-08-2022*](/Week6/Jueves-25-08-22.md) 
+- [x] [**Jueves** *25-08-2022*](/Week6/Jueves-25-08-22.md) 
+
+### TypeScript - Semana 7
+
+- [x] [**Lunes** *29-08-2022*](/Week7/Lunes-29-08-22.md) 
+- [x] [**Martes** *30-08-2022*](/Week7/Martes-30-08-22.md) 
+- [x] [**Miércoles** *31-08-2022*](/Week7/Miércoles-31-08-22.md) 
+- [x] [**Jueves** *01-09-2022*](/Week7/Jueves-01-09-22.md) 
