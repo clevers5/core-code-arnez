@@ -50,3 +50,10 @@
 - [x] [**Martes** *30-08-2022*](/Week7/Martes-30-08-22.md) 
 - [x] [**Miércoles** *31-08-2022*](/Week7/Miércoles-31-08-22.md) 
 - [x] [**Jueves** *01-09-2022*](/Week7/Jueves-01-09-22.md) 
+
+### TypeScript - Semana 8
+
+- [x] [**Lunes** *05-09-2022*](/Week8/Lunes-05-09-22.md) 
+- [x] [**Martes** *06-09-2022*](/Week8/Martes-06-09-22.md) 
+- [x] [**Miércoles** *07-09-2022*](/Week8/Miércoles-07-09-22.md) 
+- [x] [**Jueves** *08-09-2022*](/Week8/Jueves-08-09-22.md) 
