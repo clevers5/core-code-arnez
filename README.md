@@ -60,10 +60,10 @@
 
 ### Día de pausa y TypeScript - Semana 9
 
-- [ ] [**Lunes** *12-09-2022*](/Week9/Lunes-12-09-22.md) 
-- [ ] [**Martes** *13-09-2022*](/Week9/Martes-13-09-22.md) 
-- [ ] [**Miércoles** *14-09-2022*](/Week9/Miércoles-14-09-22.md) 
-- [ ] [**Jueves** *15-09-2022*](/Week9/Jueves-15-09-22.md) 
+- [x] [**Lunes** *12-09-2022*](/Week9/Lunes-12-09-22.md) 
+- [x] [**Martes** *13-09-2022*](/Week9/Martes-13-09-22.md) 
+- [x] [**Miércoles** *14-09-2022*](/Week9/Miércoles-14-09-22.md) 
+- [x] [**Jueves** *15-09-2022*](/Week9/Jueves-15-09-22.md) 
 
 ### Fin de mes y React - Semana 10
 
