@@ -75,7 +75,13 @@
 ### Node - Semana 11
 
 - [x] [**Lunes** *26-09-2022*](/Week11/Lunes-26-09-22.md) 
-- [ ] [**Martes** *27-09-2022*](/Week11/Martes-27-09-22.md) 
+- [x] [**Martes** *27-09-2022*](/Week11/Martes-27-09-22.md) 
 - [ ] [**Miércoles** *28-09-2022*](/Week11/Miércoles-28-09-22.md) 
 - [ ] [**Jueves** *29-09-2022*](/Week11/Jueves-29-09-22.md) 
 
+### Node / Database - Semana 12
+
+- [ ] [**Lunes** *03-10-2022*](/Week12/Lunes-03-10-22.md) 
+- [ ] [**Martes** *04-10-2022*](/Week12/Martes-04-10-22.md) 
+- [ ] [**Miércoles** *05-10-2022*](/Week12/Miércoles-05-10-22.md) 
+- [ ] [**Jueves** *06-10-2022*](/Week12/Jueves-06-10-22.md) 
