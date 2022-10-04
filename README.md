@@ -70,7 +70,7 @@
 - [x] [**Lunes** *19-09-2022*](/Week10/Lunes-19-09-22.md) 
 - [x] [**Martes** *20-09-2022*](/Week10/Martes-20-09-22.md) 
 - [x] [**Miércoles** *21-09-2022*](/Week10/Miércoles-21-09-22.md) 
-- [ ] [**Jueves** *22-09-2022*](/Week10/Jueves-22-09-22.md) 
+- [x] [**Jueves** *22-09-2022*](/Week10/Jueves-22-09-22.md) 
 
 ### Node - Semana 11
 
