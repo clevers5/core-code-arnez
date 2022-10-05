@@ -1,131 +1,58 @@
 # Desafío - *Miércoles 28-09-22*
 
-## *1. Ejercicio - Deadfish Swim, usando Typescript*
+## *1. Ejercicio - Ejercicio de aprendizaje de comprensión básica de las API 🧠*
 
-- **Descripción:** Escriba un analizador simple que analice y ejecute Deadfish. Deadfish tiene 4 comandos, cada uno de 1 carácter:
+**Descripción:** Seguro que has oído muchas veces la palabra API, pero ¿sabes qué es una API?
+Saber qué es realmente una API lo ayudará a comprender cuán importante es la comunicación estructurada entre dos programas diferentes y qué opciones existen actualmente para lograr dicha comunicación.
 
-  - i --> incrementa el valor (inicialmente 0) 
-  - d --> disminuye el valor
-  - s --> eleva al cuadrado el valor 
-  - o --> genera el valor en la matriz de retorno
-- Los caracteres no válidos deben ignorarse.
-- 
- ```typescript
-parse("iiisdoso") => [8, 64]
- ```
- 
- - Solución:
+1. ¿Qué es una API?
+  - Es un mecanismo que permite a 2 componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos.
+2. ¿Qué es un Protocolo?
+  - Es un sistema de reglas que permiten que 2 o más entidades de un sistema de comunicación se comuniquen entre ellas para transmitir información por medio de cualquier tipo de variación de una magnitud física.
+3. ¿El término API solo es aplicable a la comunicación de programas a través de Internet?
+  - Si lo vemos del lado tecnológico claro que si.. pero desde otra perspectiva se puede relacionar con el ambito laboral y profesional.
+4. ¿Por qué es importante la comunicación estructurada entre dos programas? - ¿Los humanos usamos API cuando nos comunicamos sin tecnología?
+  - Porque es mucho más fácil comprender el trabajo qie realiza una función determinada. y si, solemos usarlo todos los días.
+5. ¿Es una API solo otro programa o un estándar?
+  - Ambos, creo que actualmente una api esta pasando a ser un estándar para los desarrolladores por los beneficios que brindan.
+6. ¿Conoces alguna API? ¿Puede enumerar al menos 5 ejemplos de API?
+  - Si, PokéApi, Api de Pexels, Api de pixabay, NasaApi y musiXmatch
 
- ```typescript
-export function parse(data: string): number[] {
-  let v = 0,
-    result: number[] = [];
-  for (let d of data.split('')) {
-    switch (d) {
-      case 'i':
-        v++;
-        break;
-      case 'd':
-        v--;
-        break;
-      case 's':
-        v *= v;
-        break;
-      case 'o':
-        result.push(v);
-    }
-  }
-  return result;
-}
- ```
- 
- ## *2. Ejercicio - Codificador duplicado, usando Typescript*
+## *2. Ejercicio - Ejercicio de aprendizaje de JSON a REST 🧠*
 
-- **Descripción:** El objetivo de este ejercicio es convertir una cadena en una nueva cadena donde cada carácter de la nueva cadena es "(" si ese carácter aparece solo una vez en la cadena original, o ")" si ese carácter aparece más de una vez en la cadena original. Ignore las mayúsculas al determinar si un carácter es un duplicado.
- 
- - Ejemplo:
- 
- ```typescript
-"din"      =>  "((("
-"recede"   =>  "()()()"
-"Success"  =>  ")())())"
-"(( @"     =>  "))((" 
- ```
- 
- - Los mensajes de aserción pueden no estar claros acerca de lo que muestran en algunos idiomas. Si lee "... Debería codificar XXX", "XXX" es el resultado esperado, ¡no la entrada!
- 
- - Solución:
+**Descripción:** Ahora que sabes un poco mejor qué es una API, es hora de aprender sobre una de las formas más populares de crear una API para aplicaciones web, las API REST.
 
- ```typescript
-export function duplicateEncode(word: string) {
-  return word
-    .toLowerCase()
-    .split('')
-    .map((a: string, i: number, w: string[]) => {
-      return w.indexOf(a) == w.lastIndexOf(a) ? '(' : ')';
-    })
-    .join('');
-}
- ```
- 
-  ## *3. Ejercicio - Find The Odd Int, usando Typescript*
+1. ¿Qué es HTTP?
+  - Es el protocolo de transferencia de hipertexto que nos permite las transferencias de infomación a través de la web (www).
+2. ¿Qué es JSON? - ¿JSON es lo mismo que un objeto Javascript simple?
+  - Es un formato de texto sencillo para el intercambio de datos, y no es lo mismo que un Javascipt simple porque un JSON tiene más restricciones que un objeto javascript
+3. ¿Qué es REST? - ¿Es REST un lenguaje de programación, un marco, una tecnología o un patrón de arquitectura?
+  - Es un estilo de arquitectura software para sistemas hipermedia distribuido como la WWW que nos permite conectar varios sistemas basados en el protocolo HTTP y nos sirve para obtener y generar datos y operaciones, devolviendo esos datos en formatos muy específicos, como XML y JSON.
+4. ¿Qué es un método HTTP? - ¿Qué métodos HTTP usa REST dentro de sus reglas de arquitectura? - ¿Por qué usamos métodos HTTP en REST y cómo se relacionan con los recursos?
+  - Un método HTTP permite comunicar al servidor lo que se quiere realizar con un recurso bajo estos métodos: URL ; POST ; GET ; PUT ; DELETE ; HEAD, los usamos porque nos ayudan a recibir los datos de forma rápida, y para ello hay aplicaciones como Postman que nos facilita aun mas.
+5. ¿Qué es un recurso en REST? - ¿Qué es un identificador de recursos?
+  - Es una entidad que representa un concepto de negocio que puede ser accedido públicamente. y un identificador de recursos nos ayuda a poder distinguir nuestros recursos de manera unica, se los llama URI y derivan la URL y el URN.
+6. ¿Es REST lo mismo que HTTP?
+  - No, REST admite más funciones que las HTTP, mientras que las HTTP están diseñadas con caracteristicas mínimas para que puedan ofrecerse a un precio bajo.
 
-- **Descripción:** Dada una matriz de números enteros, encuentre el que aparece un número impar de veces. Siempre habrá un solo número entero que aparecerá un número impar de veces.
-- Ejemplo
- ```typescript
-[7] debería devolver 7, porque ocurre 1 vez (lo cual es impar). 
-[0] debería devolver 0, porque ocurre 1 vez (lo cual es impar). 
-[1,1,2] debería devolver 2, porque ocurre 1 vez (lo cual es impar).
-[0,1,0,1,0] debería devolver 0, porque ocurre 3 veces (lo cual es impar). 
-[1,2,2,3,3,3,4,3,3,3,2,2,1] debería devolver 4, porque aparece 1 vez (lo cual es impar).
- ```
- 
- - Solución:
+## *3. Ejercicio - Ejercicio de aprendizaje de clientes API REST 🧠*
 
- ```typescript
-export function findOdd(xs: number[]): number {
-  return (
-    xs.find(
-      (x: number, i: number, a: number[]) =>
-        a.filter((y: number) => y === x).length % 2 === 1
-    ) || -1
-  );
-}
- ```
- 
- 
-  ## *4. Ejercicio - ¿Cuáles están adentro? ejercicio, usando Typescript*
+**Descripción:** 
 
-- **Descripción:** Dadas dos matrices de cadenas a1 y a2 devuelven una matriz ordenada r en orden lexicográfico de las cadenas de a1 que son subcadenas de cadenas de a2.
-- Ejemplo 1
- ```typescript
-a1 = ["arp", "live", "strong"]
-a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
-returns ["arp", "live", "strong"]
- ```
- - Ejemplo 2
- ```typescript
-a1 = ["tarp", "mice", "bull"]
-a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
-returns []
- ```
- 
- - Las matrices se escriben en notación "general". Consulte "Sus casos de prueba" para ver ejemplos en su idioma. 
- - En Shell bash a1 y a2 son cadenas. El retorno es una cadena donde las palabras están separadas por comas. 
- - Atención: en algunos idiomas, la r debe estar sin duplicados.
- 
- - Solución:
+1. Instala Postman en tu computadora, sigue esta [guía](https://learning.postman.com/docs/getting-started/installation-and-updates/) 
+  - Completado
+2. Mire este [curso](https://www.youtube.com/watch?v=VywxIQ2ZXw4) sobre cómo usar Postman para interactuar con las API
+  - Completado
+3. Responde a las preguntas: Postman solo funciona con API REST? - ¿Hay alguna alternativa a Postman?
+  - Si, se basa en APIS O API REST, existen varias herramientas como SoapUI, Zapier o Mockoon.
 
- ```typescript
-export function inArray(a1: string[], a2: string[]): string[] {
-    return a1
-      .filter((aWord: string) => {
-        return (
-          a2.find((bWord: string) => bWord.indexOf(aWord) != -1) != undefined
-        );
-      })
-      .sort();
-  }
- ```
- 
- 
+## *4. Ejercicio - Ejercicio de aprendizaje de comprensión básica de Express.JS 🧠*
+
+**Descripción:** Ahora que tiene un conjunto de conocimientos que le permiten comprender qué es una API, qué es REST, HTTP, etc. Es hora de ver cómo podemos implementar todo esto usando Node.JS y JavaScript. Para ello utilizaremos Express.JS, una librería que nos permite crear aplicaciones Web para el servidor que nos permite implementar REST.
+
+1. Lea sobre el patrón de diseño de la Cadena de responsabilidad [aquí](https://refactoring.guru/es/design-patterns/chain-of-responsibility).
+  - Completado
+2. Express JS Hola Mundo:
+  - Cree un nuevo proyecto de Node.JS usando NPM.
+  - Instale Express.JS como una dependencia externa en su proyecto siguiendo esta [guía](https://expressjs.com/es/starter/installing.html).
+  - Cree una aplicación Express.JS Hello World siguiendo esta [guía](https://expressjs.com/es/starter/hello-world.html).
