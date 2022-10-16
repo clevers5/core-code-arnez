@@ -81,7 +81,21 @@
 
 ### Node / Database - Semana 12
 
-- [ ] [**Lunes** *03-10-2022*](/Week12/Lunes-03-10-22.md) 
-- [ ] [**Martes** *04-10-2022*](/Week12/Martes-04-10-22.md) 
-- [ ] [**Miércoles** *05-10-2022*](/Week12/Miércoles-05-10-22.md) 
-- [ ] [**Jueves** *06-10-2022*](/Week12/Jueves-06-10-22.md) 
+- [x] [**Lunes** *03-10-2022*](/Week12/Lunes-03-10-22.md) 
+- [x] [**Martes** *04-10-2022*](/Week12/Martes-04-10-22.md) 
+- [x] [**Miércoles** *05-10-2022*](/Week12/Miércoles-05-10-22.md) 
+- [x] [**Jueves** *06-10-2022*](/Week12/Jueves-06-10-22.md)
+
+### Día de pausa y S.O.L.I.D - Semana 13
+
+- [x] [**Lunes** *10-10-2022*](/Week13/Lunes-10-10-22.md) 
+- [x] [**Martes** *11-10-2022*](/Week13/Martes-11-10-22.md) 
+- [x] [**Miércoles** *12-10-2022*](/Week13/Miércoles-12-10-22.md) 
+- [x] [**Jueves** *13-10-2022*](/Week13/Jueves-13-10-22.md) 
+
+### Fin de mes - Semana 14
+
+- [x] [**Lunes** *17-10-2022*](/Week14/Lunes-17-10-22.md) 
+- [x] [**Martes** *18-10-2022*](/Week14/Martes-18-10-22.md) 
+- [x] [**Miércoles** *19-10-2022*](/Week14/Miércoles-19-10-22.md) 
+- [x] [**Jueves** *20-10-2022*](/Week14/Jueves-20-10-22.md) 
