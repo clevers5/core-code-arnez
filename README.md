@@ -77,7 +77,7 @@
 - [x] [**Lunes** *26-09-2022*](/Week11/Lunes-26-09-22.md) 
 - [x] [**Martes** *27-09-2022*](/Week11/Martes-27-09-22.md) 
 - [x] [**Miércoles** *28-09-2022*](/Week11/Miércoles-28-09-22.md) 
-- [ ] [**Jueves** *29-09-2022*](/Week11/Jueves-29-09-22.md) 
+- [x] [**Jueves** *29-09-2022*](/Week11/Jueves-29-09-22.md) 
 
 ### Node / Database - Semana 12
 
