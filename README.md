@@ -102,4 +102,4 @@
 
 ### Proyecto final - Semana 15 y 16
 
-- [x] [Proyecto final]()
+- [x] [Proyecto final](https://github.com/clevers5/react-proyect-corecode)
